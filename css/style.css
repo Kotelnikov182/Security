@@ -11,6 +11,7 @@
     width: 1200px;
     height: 105px;
     display: flex;
+    margin-bottom: 230px;
     background-color:#273720;
     opacity: 80%;
     align-items: center;
@@ -47,6 +48,7 @@
   padding: 16px 25px 17px 25px;
   margin-left: 24px;
   border-radius: 6px;
+  display: inline-flex;
   background-color: #42AE60;
   text-decoration: none;
   color: #fff;
@@ -55,4 +57,37 @@
   .green-btn:hover{
   background-color:#0D792B;
   color: #fff;
+  }
+  .green-btn:nth-child(3){
+    margin-left: 0;
+  }
+  /* PAGE */
+  .page{
+    width: 1200px;
+    height: 675px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #273720;
+    color: #fff;
+  }
+  .page__wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 175px;
+    padding-bottom: 126px;
+    padding-left: 60px;
+  }
+  .page__offer{
+    max-width: 452px;
+  }
+  .page__title{
+    font-size: 74px;
+    line-height: 80px;
+    margin-bottom: 26px;
+  }
+  .page__subtitle{
+    margin-bottom: 15px;
   }
