@@ -91,3 +91,24 @@
   .page__subtitle{
     margin-bottom: 15px;
   }
+  /* PARTNERS */
+  .partners{
+    width: 1200px;
+    height: 178px;
+    margin: 0 auto;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #273720;
+  }
+  .partners p{
+    max-width: 212px;
+    margin: 0;
+  }
+  .partners img{
+    margin-right:43px;
+  }
+  .partners img:nth-child(6){
+    margin-right:0;
+  }
